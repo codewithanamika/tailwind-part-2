@@ -1,13 +1,12 @@
-// tailwind.config.js
-module.exports = {
+export default {
   content: [
-    "./index.html", // Include your main HTML file
-    "./src/**/*.{js,ts,jsx,tsx}", // Include all your source files
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {}, // Extend or customize your theme here
+    extend: {}, 
   },
   plugins: [
     require('@tailwindcss/forms')
-  ], // Add plugins here if needed
+  ],
 };
